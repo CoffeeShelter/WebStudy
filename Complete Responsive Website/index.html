@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0">
+        <title>Complete Responsive Website Design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Food<span>.</span></a>
+            <ul class="navigation">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#expert">Expert</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contract">Contract</a></li>
+            </ul>
+        </header>
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2>Always Choose Good</h2>
+                <p>
+                    Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use
+                </p>
+                <a href="#" class="btn">Our Menu</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText"><span>A</span>bout Us</h2>
+                    <p>
+                        Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use<br><br>
+                        Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use<br><br>
+                        Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use
+                    </p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                    <img src="images/img1.jpg"></img>
+                    </div>
+                </div>
+        </section>
+
+        <script type="text/javascript">
+            window.addEventListener('scroll', function(){
+                const header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+        </script>
+    </body>
+</html>
