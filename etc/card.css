@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sunflower", sans-serif;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fdffb6;
+  width: 500px;
+  height: 700px;
+}
+.content .up {
+  position: relative;
+  padding: 50px;
+  display: box;
+  width: 100%;
+  height: 80%;
+}
+.content .up div {
+  position: relative;
+  width: 100%;
+  color: #08b0e8;
+  font-size: 28px;
+}
+.content .up div:nth-child(2),
+.content .up div:nth-child(3) {
+  font-weight: 900;
+}
+.content .down {
+  position: relative;
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content .down .by {
+  padding-top: 20px;
+  font-weight: 700;
+}
+.content .down .by span {
+  color: #08b0e8;
+  font-size: 26px;
+}
+.content .down .logo {
+  position: relative;
+  background: #08b0e8;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.content .down .logo div {
+  position: relative;
+  color: #fdffb6;
+  font-size: 24px;
+  font-weight: 700;
+  left: 67%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
